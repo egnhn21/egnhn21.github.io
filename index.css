@@ -1,0 +1,14 @@
+body {
+    background-color: whitesmoke;
+}
+h1 {
+    color: #01579B;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 90px;
+    text-align: center;
+    margin: auto;
+    top: 50%;
+}
+p {
+    color: red;
+}
