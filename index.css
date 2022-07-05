@@ -7,7 +7,8 @@ h1 {
     font-size: 200px;
     text-align: center;
     margin: auto;
-    top: 50%;
+    margin-top: 50%;
+
 }
 p {
     color: red;
