@@ -50,5 +50,18 @@ img {
     width: 50%; /* or any custom size */
 }
 
+.card img {
+    transition: .5s ease;
+  }
+  
+.card button:active {
+    transform: translateY(2px);
+}
+
+.card:hover{
+    box-shadow: 0 0 0 10px #03fc6b;
+    transition: .5s ease;
+}
+
 .w3-black,.w3-hover-black:hover{color:#FDF5DF!important;background-color:#5EBEC4!important}
 .w3-card,.w3-card-2{box-shadow:0 2px 5px 0 #5EBEC4,0 2px 10px 0 #5EBEC4}
