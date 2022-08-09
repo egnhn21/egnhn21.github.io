@@ -4,7 +4,7 @@ html{
 }*,*:before,*:after{
     box-sizing:inherit
 }
-.card-library{
+/* .card-library{
     display: flex;
     margin: auto;
     justify-content: space-between;
@@ -21,7 +21,7 @@ img {
     height: 50%; 
     object-fit: contain;
     width: 50%; /* or any custom size */
-}
+} */
 
 /* Extract from normalize.css by Nicolas Gallagher and Jonathan Neal git.io/normalize */
 html{
