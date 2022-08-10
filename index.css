@@ -3,9 +3,9 @@ body {
 }
 h1 {
     animation: reveal 3s step-end;
-    color: #fff;
+    color: #000;
     font-family: 'Ailerons', sans-serif;
-    font-size: 400px;
+    font-size: 800px;
     text-align: center;
     margin: auto;
     margin-top: 50%;
