@@ -8,12 +8,12 @@ h1 {
     text-align: center;
     margin: auto;
     margin-top: 50%;
-    animation: reveal 3s linear;
+    animation: reveal 1.5s linear;
 }
 
 .card-library{
     display: flex;
-    margin: auto;
+    /* margin: auto; */
     justify-content: center;
     width: auto;
     margin-top: 50px;
@@ -25,6 +25,7 @@ h1 {
 .card-img {
     height: 100px;
     width: 100px;
+    animation: reveal 1s linear;
 }
 
 .card-info-box {
