@@ -2,7 +2,6 @@ body {
     background-color: #FDF5DF;
 }
 h1 {
-    animation: reveal 3s step-end;
     color: #000;
     font-family: 'Ailerons', sans-serif;
     font-size: 800px;
