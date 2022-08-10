@@ -8,6 +8,7 @@ h1 {
     text-align: center;
     margin: auto;
     margin-top: 50%;
+    animation: reveal 3s linear;
 }
 
 .card-library{
@@ -15,7 +16,7 @@ h1 {
     margin: auto;
     justify-content: center;
     width: auto;
-    margin-top: 100px;
+    margin-top: 50px;
     margin-bottom: 200px;
     border-radius: 10px;
     overflow: hidden;
@@ -35,7 +36,7 @@ h1 {
 }
 
 .name-intro {
-    animation: reveal 3s step-end;
+    animation: reveal 3s linear;
     color: white;
     font-size: 50px;
     margin-top: 30px;
