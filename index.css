@@ -2,13 +2,13 @@ body {
     background-color: #FDF5DF;
 }
 h1 {
-    color: #01579B;
+    animation: reveal 3s step-end;
+    color: #fff;
     font-family: 'Ailerons', sans-serif;
-    font-size: 200px;
+    font-size: 400px;
     text-align: center;
     margin: auto;
     margin-top: 50%;
-
 }
 
 .card-library{
