@@ -35,7 +35,7 @@ h1 {
     margin-top: 110px;
 }
 
-.intro_text{
+.name-intro {
     animation: reveal 3s step-end;
     color: white;
     font-size: 50px;
@@ -50,7 +50,7 @@ h1 {
     to {
       opacity: 100%;
     }
-  }
+}
 
 
 
