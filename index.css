@@ -11,28 +11,10 @@ h1 {
 
 }
 
-
-.wrap {
-    display: flex;
-    border-radius: 10px;
-    overflow: hidden;
-}
-  
-.item {
-    flex: 1;
-    height: 100px;
-    background: teal;
-    margin-right: 5px;
-}
-
-.item:last-child {
-    margin-right: 0;
-}
-
 .card-library{
     display: flex;
     margin: auto;
-    justify-content: space-between;
+    justify-content: center;
     width: auto;
     margin-top: 100px;
     margin-bottom: 200px;
@@ -40,6 +22,38 @@ h1 {
     overflow: hidden;
   }
   
+.card-img {
+    height: 400px;
+    width: 400px;
+}
+
+.card-info-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    margin-top: 110px;
+}
+
+.intro_text{
+    animation: reveal 3s step-end;
+    color: white;
+    font-size: 50px;
+    margin-top: 30px;
+    user-select: none;
+}
+  
+@keyframes reveal {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 100%;
+    }
+  }
+
+
+
 .card {
     background-color: black;
     height: 20%;
